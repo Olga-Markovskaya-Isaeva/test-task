@@ -1,16 +1,42 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 5px 20px;
   font-family: sans-serif;
 }
-
-table {
-  margin: 30px;
-  border-collapse: collapse;
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
-td, th {
-  border: 1px solid #eee;
-  min-width: 50px;
-  padding: 2px 4px;
+
+thead th:nth-child(1) {
+  width: 10%;
 }
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 10%;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+
+
+
+
